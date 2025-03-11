@@ -1,0 +1,49 @@
+body{
+  height: 10000px;
+  margin: 0px 0px 0px 0px;
+  background-image: url("../img/fondo.JPG");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.izqyderech{
+  position:relative;
+  padding: 1070px 0px 0px 0px;
+}
+.izq{
+  margin: 0px 0px 0px 70px;
+  position: absolute;
+}
+.derech{
+  position: absolute;
+  margin: 1000px 0px 0px 1070px; /* 1920-745=1175*/
+  z-index: 1;
+}
+.textoizq{
+  font-size: 34px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.textoderech{
+  font-size: 34px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.imgizq{
+    border-radius: 15px 15px 0px 0px;
+}
+
+.imgderech{
+border-radius: 0px 15px 15px 0px;
+}
+
+main{
+  margin: 1800px 0px 0px 0px;
+  background-color: pink;
+  height: 1px;
+}
